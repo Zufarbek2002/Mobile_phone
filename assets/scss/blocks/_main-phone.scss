@@ -1,0 +1,290 @@
+#hero {
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(255, 255, 0, 0.195);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.phone__border {
+    width: 320px;
+    height: 600px;
+    background-color: rgba(0, 0, 255, 0.666);
+    border-radius: 40px;
+    border: 10px solid black;
+    padding: 40px 20px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    position: relative;
+}
+
+.btn {
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    background-size: cover;
+    background-position: center;
+    background-image: url(../../../images/notes.jpg);
+
+}
+
+.settings {
+    background-image: url(../../../images/settings.webp);
+}
+
+.files {
+    background-image: url(../../../images/files.jpg);
+}
+
+.play_market {
+    background-image: url(../../../images/playMarket.png);
+}
+
+.alarm_btn {
+    background-image: url(../../../images/alarm.jpg);
+}
+
+.timer_btn {
+    background-image: url(../../../images/timer.png);
+}
+
+.time_btn {
+    background-image: url(../../../images/clock.png);
+}
+
+.telegram {
+    background-image: url(../../../images/telegram.png);
+}
+
+.maps {
+    background-image: url(../../../images/maps.png);
+}
+
+.google {
+    background-image: url(../../../images/google.png);
+}
+
+.kril_to {
+    background-image: url(../../../images/krilTo.jpg);
+}
+
+.line_box {
+    display: flex;
+    gap: 20px;
+}
+
+.item_box {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    row-gap: 4px;
+}
+
+.open {
+    display: none;
+}
+
+.item_name {
+    color: #fff;
+    font-size: 13px;
+    width: 50px;
+    overflow: hidden;
+    height: 20px;
+}
+
+.alarm_boxs {
+    flex-direction: column;
+    row-gap: 10px;
+    background-color: #33333372;
+    padding: 15px 10px;
+    border-radius: 8px;
+
+    input {
+        background-color: #fff;
+        padding: 10px 15px;
+        border-radius: 8px;
+        border: none;
+        outline: none;
+    }
+}
+
+.alarm_box {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.set_time {
+    padding: 0 20px;
+    font-size: 32px;
+    font-weight: bold;
+    color: blue;
+    border-radius: 8px;
+}
+
+// time
+.time_box {
+    justify-content: center;
+    gap: 25px;
+    width: 100%;
+}
+
+.timing_style {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffffff3f;
+    color: #fff;
+    width: 50px;
+    height: 50px;
+    font-size: 34px;
+}
+
+.battery_box {
+    position: absolute;
+    top: 5px;
+    right: 25px;
+
+    .battery_rec {
+        width: 2px;
+        height: 8px;
+        position: absolute;
+        top: 6px;
+        right: -4px;
+        background-color: #fff;
+
+    }
+}
+
+.battery_percent {
+    position: absolute;
+    color: #fff;
+    top: -2px;
+    left: 8px;
+}
+
+.battery_level_box {
+    width: 50px;
+    height: 20px;
+    background-color: transparent;
+    border-radius: 4px;
+    border: 2px solid #fff;
+    display: flex;
+    align-items: center;
+}
+
+.battery_level {
+    height: 15px;
+    margin: 0 0.5px;
+    border-radius: 4px;
+}
+
+.battery_fully {
+    background-color: green;
+    width: 100%;
+}
+
+.battery_half {
+    width: 50%;
+    background-color: green;
+}
+
+.battery_null {
+    width: 10%;
+    background-color: red;
+}
+
+.hero_time {
+    position: absolute;
+    top: 4px;
+    left: 20px;
+    color: #fff;
+}
+
+.footer_boxes {
+    position: absolute;
+    bottom: 20px;
+    left: 30px;
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+}
+
+.close_btn {
+    border-radius: 8px;
+    background-color: #c3c3c381;
+    color: #fff;
+    font-weight: 900;
+    font-size: 24px;
+    padding: 10px 20px;
+
+    &:hover {
+        background-color: #c3c3c3b7;
+    }
+}
+
+.center {
+    left: 100px;
+}
+
+.same_btn {
+    border-radius: 4px;
+    color: #fff;
+    padding: 4px 10px;
+}
+
+.play_alarm {
+    background-color: green;
+}
+
+.stop_alarm {
+    background-color: red;
+}
+
+.timer_boxes {
+    flex-direction: column;
+    row-gap: 15px;
+}
+
+.timer_box {
+    display: flex;
+    gap: 50px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.clock {
+    width: 80px;
+    padding: 5px 20px;
+    border-radius: 8px;
+    outline: none;
+}
+
+.timer_text {
+    color: #fff;
+}
+
+.btn_box{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.timer_same_btn{
+    border-radius: 10px;
+    padding: 8px 20px;
+    color: #fff;
+    font-size: 20px;
+}
+
+.play_btn{
+    background-color: green;
+}
+.stop_btn{
+    background-color: red;
+}
+.reset_btn{
+    background-color: rgb(79, 123, 218);
+}
